@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TracNghiem</string>
+    <string name="btnketthuc">Ket thuc</string>
+    <string name="txt2">&#62;</string>
+    <string name="txt1">&#60;</string>
+    <string name="txtlc1">lua chon 1</string>
+    <string name="txtlc2">lua chon 2;</string>
+    <string name="txtlc3">lua chon 3;</string>
+    <string name="txtlc4">lua chon 4;</string>
+    <string name="causo1">cau so 1;</string>
+
+    <string name="causo2">cau so 2;</string>
+    <string name="causo3">cau so 3;</string>
+    <string name="causo4">cau so 4;</string>
+    <string name="causo5">cau so 5;</string>
+    <string name="causo6">cau so 6;</string>
+
+    <string-array name="Spinner1">
+    <item> lua chon 2</item>
+    <item> lua chon 1</item>
+    <item> lua chon 3</item>
+    <item> lua chon 4</item>
+    </string-array>
+    <string name="title_activity_abtractquestion">Abtractquestion</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="open">Open;</string>
+    <string name="close">Close;</string>
+</resources>

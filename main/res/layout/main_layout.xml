@@ -1,0 +1,32 @@
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MH1Activity"
+    android:orientation="vertical"
+    >
+    <FrameLayout
+        android:id="@+id/drawcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+    <ListView
+        android:id="@+id/drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/colorwhite"
+        android:choiceMode="singleChoice"
+        android:divider="@color/colorstylishlight"
+        android:dividerHeight="0dp"
+        android:entries="@array/Spinner1">
+
+    </ListView>
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
