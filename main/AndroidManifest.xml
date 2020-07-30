@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="tdc.edu.vn.tracnghiem">
+    package="com.example.projectnhom12">
 
     <application
         android:allowBackup="true"
@@ -9,34 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".MH6Activity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".MH5Activity"
-            android:label="@string/causo5"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name=".MH4Activity"
-            android:label="@string/causo4"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name=".MH3Activity"
-            android:label="@string/causo3"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name=".MH2Activity"
-            android:label="@string/causo2"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name=".MH1Activity"
-            android:screenOrientation="landscape">
+        <activity android:name="com.example.project1.Doctor_Activity">
+
+        </activity>
+        <activity android:name="com.example.project1.Home_Activity">
+
+        </activity>
+        <activity android:name="com.example.project1.DoctorInformation_Activity">
+
+        </activity>
+
+        <activity android:name="com.example.project1.Hostpital_Activity">
+
+        </activity>
+
+        <activity android:name="com.example.project1.DiseaseSearch_Activity">
+
+        </activity>
+        <activity android:name="com.example.project1.Login_Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
     </application>
 
 </manifest>
